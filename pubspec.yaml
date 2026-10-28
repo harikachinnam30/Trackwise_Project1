@@ -1,0 +1,32 @@
+name: habit_mastery_league
+description: "TrackWise - smart habit tracking and daily streaks"
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # DATABASE
+  sqflite: ^2.3.0
+  path: ^1.9.0
+  path_provider: ^2.1.2
+
+  # STATE MANAGEMENT (Graduate Requirement)
+  flutter_riverpod: ^2.5.1
+  shared_preferences: ^2.3.2
+
+  # UTILITIES
+  intl: ^0.19.0
+  uuid: ^4.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
